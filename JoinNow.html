@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="CSS.css">
+<title>Join Now</title>
+</head>
+<div id="logo"><a href="index.html"><img src="images/logo.png" height="200" width="600" alt=logo></a></div>
+<nav>
+<a href="Programsandschedule.html" >Programs & schedule</a> &nbsp; <a href="Nutrition.html">Nutrition</a> &nbsp; <a href="Supplements.html">Supplements</a> 
+&nbsp; <a href="GymTube.html">GymTube</a> &nbsp; <a href="Gallery_and_soundtrack.html">Gallery & Soundtrack</a> &nbsp; <a href="FAQ.html">FAQ</a> &nbsp;
+ <a href="JoinNow.html">Join Now!</a>  &nbsp; <a href="ContactUs.html">Contact Us</a> &nbsp; <a href="AboutUs.html">About Us</a> &nbsp; 
+</nav>
+<div id="wrapper">
+<h1> Please Fill The Registration Form : </h1>
+<div id="content">
+<form method="post" id="myform">
+<div>
+<label for="firstname">First name:</label>
+<input type="text" name="firstname" id="firstname" required="required" placeholder="First name"><br>
+<label for="lastname">Last name:</label>
+<input type="text" name="last name" id="lastname" required="required" placeholder="Last name">
+</div>
+<label for="mydate">Date Of Birth:</label>
+<input type="date" name="mydate" id="mydate"><br>
+<label for="address">Address:</label>
+<input type="text" name="address" id="address" required="required" placeholder="Ex: 25NasrStreet,Maadi"><br>
+<label for="email">E-mail:</label>
+<input type="text" name="email" id="email" required="required" placeholder="you@yourdomain.com"><br>
+<div>
+<label for="homephone">Home phone:</label>
+<input type="text" name="homephone" id="homephone" required="required" placeholder="8 digit number"><br>
+<label for="mobilephone">Mobile phone:</label>
+<input type="text" name="mobilephone" id="mobilephone" required="required" placeholder="11 digit number">
+</div>
+<label> Gender: </label>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female<br><br>
+<label for="membershiptype"> Membership Type: </label>
+<input type="text" name="membershiptype" id="membershiptype" list="membershiptypes">
+<datalist id="membershiptypes">
+<option value= "3 months">
+<option value= "6 months">
+<option value= "9 month">
+<option value= "12 months">
+</datalist><br>
+<label for="classtojoin"> Class To Join: </label>
+<input type="text" name="classtojoin" id="classtojoin" list="classestojoin">
+<datalist id="classestojoin">
+<option value= "Body Building Class">
+<option value= "Fitness Class">
+<option value= "Yoga Class">
+<option value= "Pilates Class">
+</datalist><br>
+<label for="choice"> How did you know us?</label>
+<input type="text" name="choice" id="choice" list="choices">
+<datalist id="choices">
+<option value= "News Paper">
+<option value= "Friend">
+<option value= "Propaganda from our staff">
+<option value= "Other">
+</datalist><br>
+<div>
+<label for="mycomments"><br>Notes:</label><br>
+<textarea name="my comments" id="mycomments" rows="3" cols="30"></textarea><br>
+</div>
+<label for="submit"> &nbsp; </label>
+<input type="submit" id="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</div>
+</div>
+<div id="footer">
+<p><small>Copyright &copy; 2014 Adrenaline Gym</small></p>
+</div>
+</body>
+</html>
